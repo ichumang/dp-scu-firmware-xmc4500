@@ -1,0 +1,65 @@
+# Object files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+*.lst
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+
+# Dependency files
+*.d
+
+# Build directories
+build/
+out/
+_build/
+Release/
+Debug/
+DAVE/
+.generated/
+
+# DAVE IDE
+*.launch
+.metadata/
+
+# J-Link
+*.jlink.log
+
+# Coverage
+*.gcno
+*.gcda
+*.gcov
+lcov-report/
+coverage/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.cproject
+.settings/
+
+# Doxygen
+doxygen/html/
+doxygen/latex/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.tmp
+core
